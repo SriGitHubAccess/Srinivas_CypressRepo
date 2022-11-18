@@ -1,0 +1,58 @@
+{
+  "userlogin": {
+    "htcqasuperuser01": {
+      "envname": "qa",
+      "baseUrl": "https://qa-handitaxcloud.handisoft.com.au/",
+      "logoutredirectlogin_Url": "https://htcqa.sagehandisoft.com.au/Landing/Index?ReturnUrl=%2F#!/practiceList",
+      "identifier": "htcqasuperuser01",
+      "usertype": "practice practice",
+      "email": "htcqasuperuser01@mailinator.com",
+      "password": "Access2024",
+      "firstName": "Peter",
+      "lastName": "Hilander",
+      "practiceId": "",
+      "clientRef": ""
+    },
+    "htcqasuperuser02": {
+      "envname": "qa",
+      "baseUrl": "https://qa-handitaxcloud.handisoft.com.au/",
+      "logoutredirectlogin_Url": "https://qa-handitaxcloud.handisoft.com.au/Landing/Index?ReturnUrl=%2F#!/practiceList",
+      "identifier": "htcqasuperuser02",
+      "usertype": "practice staff",
+      "email": "htcqasuperuser02@mailinator.com",
+      "password": "Access2024",
+      "firstName": "John",
+      "lastName": "Ebner",
+      "practiceId": "",
+      "clientRef": ""
+
+    },
+    "htcqasuperuser03": {
+      "envname": "stage",
+      "baseUrl": "https://qa-handitaxcloud.handisoft.com.au/",
+      "logoutredirectlogin_Url": "https://qa-handitaxcloud.handisoft.com.au/Landing/Index?ReturnUrl=%2F#!/practiceList",
+      "identifier": "htcqasuperuser03",
+      "usertype": "practice staff",
+      "email": "htcqasuperuser03@mailinator.com",
+      "password": "Access2022",
+      "firstName": "Sarah",
+      "lastName": "Brightman",
+      "practiceId": "",
+      "clientRef": ""
+
+    },
+    "htcstagingsuperuser01": {
+      "envname": "stage",
+      "baseUrl": "https://htcstaging.sagehandisoft.com.au",
+      "identifier": "htcstagingsuperuser01",
+      "usertype": "practice staff",
+      "email": "auto_accessgroup_qa1@mailinator.com",
+      "password": "Access2022",
+      "firstName": "NA",
+      "lastName": "NA",
+      "practiceId": "",
+      "clientRef": ""
+    }
+  }
+  
+}

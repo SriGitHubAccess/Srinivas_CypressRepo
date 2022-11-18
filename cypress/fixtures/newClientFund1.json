@@ -1,0 +1,38 @@
+{
+  "clientType": "Fund",
+  "businessName": "HTC Test Fund 01",
+  "alternativeName": "HTC Fund 01",
+  "dateIncorporated": "01/01/2000",
+  "website": "htctest.fund01.au",
+  "addresses": [
+    {
+      "addressType": "Street",
+      "street1": "12 Meadown Crescent",
+      "suburb": "Meadownbank",
+      "state": "NSW",
+      "postcode": "2111",
+      "country": "Australia"
+    }
+  ],
+  "phoneNumber": [
+    {
+      "type": "Mobile",
+      "number": "0444555666",
+      "description": "Personal Mobile Number"
+    }
+  ],
+  "email": [
+    {
+      "emailContactName": "Tom Who",
+      "emailAddress": "htcfund01@htcvm1001.accesscam.org"
+    }
+  ],
+  "showMobilePhone": "1",
+  "showDaytimePhone": "1",
+  "showEmailAddress": "1",
+  "bsb": "112233",
+  "accountNumber": "12345678",
+  "accountName": "HTC fund 01",
+  "bankAccountNotes": "Fund bank account",
+  "clientRef": "cy000007"
+}

@@ -1,0 +1,7 @@
+// JavaScript source code
+{
+    "common_password": "secret_sauce",
+     "staff_user": "standard_user",
+     "admin_user": "locked_out_user",
+     "client_user": "problem_user"
+}

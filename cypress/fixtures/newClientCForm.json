@@ -1,0 +1,141 @@
+{
+	"individualIncome": [
+		{
+			"clientRef": "cy000002",
+			"_comment1": "Salaries and Wages",
+			"formType": "C Form",
+			"occupation": "Computing professional - systems test engineer",
+			"occupationCode": "263213",
+			"payment": [
+				{
+					"payerABN": "66264753659",
+					"payerName": "Test Company 1",
+					"taxWithheld": "7500",
+					"grossPay": "50000"
+				},
+				{
+					"payerABN": "75812792400",
+					"payerName": "Test Company 2",
+					"taxWithheld": "4500",
+					"grossPay": "30000"
+				}
+			],
+
+			"_comment2": "Super Lump Sum Schedule",
+			"superLumpSumSchedulePayment": [
+				{
+					"superLumpSumSchedule_PaymentDate": "01/07/2021",
+					"superLumpSumSchedule_TaxWithheld": "1000",
+					"superLumpSumSchedule_TaxedComponent_TaxedElement": "5000",
+					"superLumpSumSchedule_TaxedComponent_UntaxedElement": "2000",
+					"superLumpSumSchedule_TaxableComponent_TaxFreeComponent": "1000",
+					"superLumpSumSchedule_DeathBenefit": "N",
+					"superLumpSumSchedule_PayerABN": "51824753556",
+					"superLumpSumSchedule_PayerName": "SuperLump Payer Name1"
+
+				}
+			],
+			"superLumpSumSchedule_LowRateAmountsInPriorYears": "0",
+			"superLumpSumSchedule_CapAmountRemainingAtYearStart": "",
+			"superLumpSumSchedule_PriorYearPaymentDetails_ForUntaxedElements_Name": "Element Name 1",
+			"superLumpSumSchedule_PriorYearPaymentDetails_ABN": "51824753557",
+			"superLumpSumSchedule_PriorYearPaymentDetails_AmountsReceivedWithinUntaxedPlanCap": "5000",
+			"superLumpSumSchedule_PriorYearPaymentDetails_UntaxedPlanCapRemainingForThisABN": "",
+			"superLumpSumSchedule_ContactPerson": "Contact Person1",
+			"superLumpSumSchedule_ContactNumberAreaCode": "02",
+			"superLumpSumSchedule_ContactNumber": "79797979",
+
+			"_comment3": "Gross Interest",
+			"grossInterest": [
+				{
+					"grossInterest_Bank": "CBA",
+					"grossInterest_branch": "Chatswood",
+					"grossInterest_AccountNumber": "112233",
+					"grossInterest_AccountHolder": "1",
+					"grossInterest_TFNAmountWithheldTotal": "999",
+					"grossInterest_TFNAmountWithheldYourShare": "",
+					"grossInterest_GrossInterest": "2000",
+					"grossInterest_grossInterestyourShare": ""
+
+				}
+			]
+
+
+
+		}
+	],
+
+	"individualDeduction": [
+		{
+			"clientRef": "cy000001",
+			"_comment4": "Work-related car expenses",
+			"formType": "I Form",
+			"workRealtedCareExpenses": [
+				{
+					"carExpenseDescription": "Car Expense Description 1",
+					"carExpenseActionCode": "S",
+					"carExpenseKm": "100",
+					"businessPercentageBeingClaimed": "",
+					"declineInValueAmount": "",
+					"otherAmountToClaim": ""
+				}
+			],
+			"giftsOrDonations": [
+				{
+					"describeTheGifts": "Charity Donation",
+					"amountToClaim": "500"
+				}
+			]
+		}
+	],
+
+	"taxOffsetsMedicareAdjustments": [
+		{
+			"medicareLevySurcharge_privatePatientHospitalCover": "Y",
+			"medicareLevySurcharge_numberOfDaysNotLiableForSurcharge": "220",
+
+			"privateHealthInsurancePolicyDetails": [
+				{
+					"healthInsurerID": "BUP",
+					"membershipNo": "12123434",
+					"premiumsEligibleForAusGovRebate": "800",
+					"ausGovRebateReceived": "400",
+					"benefitCode": "30",
+					"taxClaimCode": "B"
+
+				}
+			]
+		}
+	],
+
+	"incomeTestAndSpouseDetails": 
+	{
+			"incomeTest": {
+				"numberOfDependantChildren": "2"
+			},
+			
+			"spouseDetails": {
+				"surname": "Sarah",
+				"firstGivenName": "Brightman",
+				"otherGivenName": "Anne",
+				"dob": "04/11/1972",
+				"gender": "F",
+				"spouseForTheFullYear": "Y",
+				"spouseDieDuringTheYear": "N",
+				"spouseIncome": {
+					"prefillDetials": "N",
+					"taxableIncome": "60000",
+					"employersExamptForFBT": "2000",
+					"reportableSuperannuationContributions": "1000"
+				}
+			}
+				
+
+	}
+	
+
+
+
+
+
+}

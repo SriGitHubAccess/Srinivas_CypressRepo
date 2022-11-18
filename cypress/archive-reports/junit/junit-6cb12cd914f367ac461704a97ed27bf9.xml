@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="491.9580" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2022-05-19T07:00:01" tests="0" file="cypress/integration/featuretest_editexistingtaxreturnform/021_editTaxReturn_IForm.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Edit Tax Return - IForm" timestamp="2022-05-19T07:00:01" tests="6" time="491.9370" failures="6">
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income - Salary and Gross Interest" time="0.0000" classname="Edit Tax Return - IForm - Income - Salary and Gross Interest">
+      <failure message="Timed out retrying after 90000ms: `cy.wait()` timed out waiting `90000ms` for the 1st request to the route: `loadHomePage`. No request ever occurred.
+
+https://on.cypress.io/wait" type="CypressError"><![CDATA[CypressError: Timed out retrying after 90000ms: `cy.wait()` timed out waiting `90000ms` for the 1st request to the route: `loadHomePage`. No request ever occurred.
+
+https://on.cypress.io/wait
+    at cypressErr (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:181400:18)
+    at Object.errByPath (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:181469:10)
+    at checkForXhr (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:166631:92)
+    at https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:166654:28
+    at tryCatcher (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:13022:23)
+    at Function.Promise.attempt.Promise.try (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:10296:29)
+    at whenStable (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:173538:65)
+    at https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:172993:14
+    at tryCatcher (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:11139:18)
+    at Promise._fulfill (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:11083:18)
+    at https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:12697:46
+From Your Spec Code:
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:18766:12)]]></failure>
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income - Super Lump Sum" time="0.0000" classname="Edit Tax Return - IForm - Income - Super Lump Sum">
+      <failure message="The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  &gt; `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  &gt; `cy.log()`
+
+Because Cypress commands are already promise-like, you don&apos;t need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  > `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  > `cy.log()`
+
+Because Cypress commands are already promise-like, you don't need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command
+    at $Cy.cy.<computed> [as log] (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:178159:72)
+From Your Spec Code:
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:19600:23)]]></failure>
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Deduction" time="0.0000" classname="Edit Tax Return - IForm - Deduction">
+      <failure message="The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  &gt; `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  &gt; `cy.log()`
+
+Because Cypress commands are already promise-like, you don&apos;t need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  > `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  > `cy.log()`
+
+Because Cypress commands are already promise-like, you don't need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command
+    at $Cy.cy.<computed> [as log] (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:178159:72)
+From Your Spec Code:
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:19600:23)]]></failure>
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Tax Offset, Medicare and Adjustment" time="0.0000" classname="Edit Tax Return - IForm - Tax Offset, Medicare and Adjustment">
+      <failure message="The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  &gt; `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  &gt; `cy.log()`
+
+Because Cypress commands are already promise-like, you don&apos;t need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  > `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  > `cy.log()`
+
+Because Cypress commands are already promise-like, you don't need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command
+    at $Cy.cy.<computed> [as log] (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:178159:72)
+From Your Spec Code:
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:19600:23)]]></failure>
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income Tests and Spouse Details" time="0.0000" classname="Edit Tax Return - IForm - Income Tests and Spouse Details">
+      <failure message="The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  &gt; `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  &gt; `cy.log()`
+
+Because Cypress commands are already promise-like, you don&apos;t need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command" type="CypressError"><![CDATA[CypressError: The following error originated from your test code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  > `cy.wait()`
+
+The cy command you invoked inside the promise was:
+
+  > `cy.log()`
+
+Because Cypress commands are already promise-like, you don't need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command
+    at $Cy.cy.<computed> [as log] (https://htcqa.sagehandisoft.com.au/__cypress/runner/cypress_runner.js:178159:72)
+From Your Spec Code:
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:19600:23)]]></failure>
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Download and Validate Prefill Report" time="0.0000" classname="Edit Tax Return - IForm - Download and Validate Prefill Report">
+      <failure message="Timed out retrying after 90000ms: Expected to find content: &apos;Export&apos; within the element: [ &lt;span.dx-menu-item-text&gt;, 3 more... ] but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 90000ms: Expected to find content: 'Export' within the element: [ <span.dx-menu-item-text>, 3 more... ] but never did.
+    at CommonFunctions.downloadAndValidatePrefillReport (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:19499:57)
+    at Context.eval (https://htcqa.sagehandisoft.com.au/__cypress/tests?p=cypress\integration\featuretest_editexistingtaxreturnform\021_editTaxReturn_IForm.spec.js:17836:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

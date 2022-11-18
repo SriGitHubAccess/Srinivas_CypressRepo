@@ -1,0 +1,38 @@
+{
+  "clientType": "Company",
+  "businessName": "HTC Test Com 01",
+  "alternativeName": "HTC Com 01",
+  "dateIncorporated": "01/01/2000",
+  "website": "htctest.com01.au",
+  "addresses": [
+    {
+      "addressType": "Street",
+      "street1": "12 Meadown Crescent",
+      "suburb": "Meadownbank",
+      "state": "NSW",
+      "postcode": "2111",
+      "country": "Australia"
+    }
+  ],
+  "phoneNumber": [
+    {
+      "type": "Mobile",
+      "number": "0444555666",
+      "description": "Personal Mobile Number"
+    }
+  ],
+  "email": [
+    {
+      "emailContactName": "Tom Who",
+      "emailAddress": "htccom01@htcvm1001.accesscam.org"
+    }
+  ],
+  "showMobilePhone": "1",
+  "showDaytimePhone": "1",
+  "showEmailAddress": "1",
+  "bsb": "112233",
+  "accountNumber": "12345678",
+  "accountName": "HTC Com 01",
+  "bankAccountNotes": "Company 01 Bank account",
+  "clientRef": "cy000002"
+}

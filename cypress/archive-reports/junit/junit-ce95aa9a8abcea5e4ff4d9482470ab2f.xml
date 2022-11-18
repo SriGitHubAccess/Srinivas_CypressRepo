@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="620.8960" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-05-24T02:13:36" tests="0" file="cypress/integration/featuretest_editexistingtaxreturnform/021_editTaxReturn_IForm.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Edit Tax Return - IForm" timestamp="2022-05-24T02:13:36" tests="6" time="620.8810" failures="0">
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income - Salary and Gross Interest" time="155.4890" classname="Edit Tax Return - IForm - Income - Salary and Gross Interest">
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income - Super Lump Sum" time="95.4300" classname="Edit Tax Return - IForm - Income - Super Lump Sum">
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Deduction" time="90.5060" classname="Edit Tax Return - IForm - Deduction">
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Tax Offset, Medicare and Adjustment" time="104.8100" classname="Edit Tax Return - IForm - Tax Offset, Medicare and Adjustment">
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Income Tests and Spouse Details" time="127.3800" classname="Edit Tax Return - IForm - Income Tests and Spouse Details">
+    </testcase>
+    <testcase name="Edit Tax Return - IForm Edit Tax Return - IForm - Download and Validate Prefill Report" time="41.2820" classname="Edit Tax Return - IForm - Download and Validate Prefill Report">
+    </testcase>
+  </testsuite>
+</testsuites>

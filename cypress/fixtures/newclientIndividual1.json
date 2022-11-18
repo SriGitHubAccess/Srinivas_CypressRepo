@@ -1,0 +1,42 @@
+{
+  "clientType": "Individual",
+  "gender": "Male",
+  "surname": "Cruise",
+  "personalTitle": "Mr",
+  "firstname": "Tom",
+  "othername": "Tim",
+  "surffix": "SNR",
+  "alternativename": "Jack",
+  "dob": "04/12/1975",
+  "addresses": [
+    {
+      "addressType": "Street",
+      "street1": "12 Meadown Crescent",
+      "suburb": "Meadownbank",
+      "state": "NSW",
+      "postcode": "2111",
+      "country": "Australia"
+    }
+  ],
+  "phoneNumber": [
+    {
+      "type": "Mobile",
+      "number": "0444555666",
+      "description": "Personal Mobile Number"
+    }
+  ],
+  "email": [
+    {
+      "emailContactName": "Tom Who",
+      "emailAddress": "htcqasuperuser02@mailinator.com"
+    }
+  ],
+  "showMobilePhone": "1",
+  "showDaytimePhone": "1",
+  "showEmailAddress": "1",
+  "bsb": "112233",
+  "accountNumber": "12345678",
+  "accountName": "Tom C",
+  "bankAccountNotes": "Tom C individual Bank account",
+  "clientRef": "cy0000029"
+}
